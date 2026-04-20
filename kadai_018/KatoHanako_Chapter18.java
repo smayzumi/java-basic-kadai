@@ -3,7 +3,7 @@ package kadai_018;
 public class KatoHanako_Chapter18 extends Kato_Chapter18 {
 
 	//名を表すフィールドの値をセットする
-	public void setGivenName(String givenName){
+	public void setGivenName(){
 		super.givenName = "花子";
 	}
 	

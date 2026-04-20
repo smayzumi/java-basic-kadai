@@ -9,8 +9,13 @@ public class KatoExec_Chapter18 {
         KatoIchiro_Chapter18 Ichiro = new KatoIchiro_Chapter18();
         KatoHanako_Chapter18 Hanako = new KatoHanako_Chapter18();
         
+        //setGivenNameの実行
         
-        // メソッドの実行
+        Taro.setGivenName();
+        Ichiro.setGivenName();
+        Hanako.setGivenName();
+                
+        // 紹介実行メソッドの実行
         Taro.execIntroduce();
         Ichiro.execIntroduce();
         Hanako.execIntroduce();
